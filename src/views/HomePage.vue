@@ -1,18 +1,14 @@
 <template>
-  <HomePage />
+    <p></p>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HomePage from '@/views/HomePage.vue';
 
 export default defineComponent({
-  name: 'App',
-  components: {
-    HomePage
-  }
+    name: 'HomePage'
 });
 </script>
 
-<style>
+<style scoped>
 </style>
