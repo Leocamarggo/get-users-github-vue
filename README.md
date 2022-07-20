@@ -1,24 +1,4 @@
-# get-users-github-vue
+# Get GitHub Users - VueJS
+Get GitHub Users - Project Made in VueJS, Axios and Vuetify
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Ps: If you want to test the application just click on the link on the right.
