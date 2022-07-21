@@ -5,7 +5,7 @@
             <v-btn color="success" :disabled="emptyInput" block @click="fetchUser">Buscar</v-btn>
         </v-container>
 
-        <v-container v-else class="w-50 d-flex justify-center">
+        <v-container v-else class="w-50">
             <v-card width="700">
                 <v-row justify="center" class="mt-3">
                     <v-avatar large size="150">
@@ -17,10 +17,10 @@
                     <p v-text="userData.bio"></p>
                 </v-card-text>
             </v-card>
-        </v-container>
-
-        <v-container v-if="emptyUserData" class="w-50 d-flex justify-center">
-            <v-btn color="success" @click="restartApp">Restart</v-btn>
+            
+            <v-row justify="center" class="mt-3">
+                <v-btn color="success" @click="restartApp">Restart</v-btn>
+            </v-row>
         </v-container>
     </v-main>
 </template>
