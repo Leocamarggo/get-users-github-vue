@@ -1,5 +1,5 @@
 import store from '@/store/index';
-import api from './api.service'
+import { api } from './api.service'
 
 export default class UserService {
   static async fetchUser(): Promise<void> {
